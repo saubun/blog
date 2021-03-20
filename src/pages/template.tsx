@@ -25,23 +25,22 @@ export default function template() {
 					Voluptatum, saepe ducimus? Suscipit magni quibusdam beatae alias animi dolorum. Molestiae
 					obcaecati illo facilis earum nisi!
 				</p>
-				<code className="code-inline prettyprint"> console.log('Hello World') </code>
 				<p className="paragraph">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illum vitae inventore autem
-					nostrum porro saepe fuga quae nam. Provident, odit. Quos iure dicta cumque quia ea
-					corporis minus nulla perspiciatis molestias, aut voluptatum iste a explicabo autem nisi
-					eaque ullam itaque. Ratione ipsam eum velit, dolorum expedita cumque sapiente alias unde
-					est praesentium, eligendi sit placeat labore, quas veritatis id! Amet, nisi tempore.
-					Voluptatum, saepe ducimus? Suscipit magni quibusdam beatae alias animi dolorum. Molestiae
-					obcaecati illo facilis earum nisi! Lorem ipsum dolor sit, amet consectetur adipisicing
-					elit. Quasi ea cupiditate iste rem, nobis ut aspernatur mollitia facilis, eius vel optio
-					saepe hic natus? Nobis fugit quia tempora ducimus ab?
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illum vitae inventore autem{' '}
+					<code className="language-javascript">console.log('Hello World')</code> nostrum porro
+					saepe fuga quae nam. Provident, odit. Quos iure dicta cumque quia ea corporis minus nulla
+					perspiciatis molestias, aut voluptatum iste a explicabo autem nisi eaque ullam itaque.
+					Ratione ipsam eum velit, dolorum expedita cumque sapiente alias unde est praesentium,
+					eligendi sit placeat labore, quas veritatis id! Amet, nisi tempore. Voluptatum, saepe
+					ducimus? Suscipit magni quibusdam beatae alias animi dolorum. Molestiae obcaecati illo
+					facilis earum nisi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi ea
+					cupiditate iste rem, nobis ut aspernatur mollitia facilis, eius vel optio saepe hic natus?
+					Nobis fugit quia tempora ducimus ab?
 				</p>
 				{/* pretter-ignore */}
-				<pre className="prettyprint code-block">
-					<code>
-						{`
-var engine: TSE.Engine;
+				<pre>
+					<code className="language-javascript">
+						{`var engine: TSE.Engine;
 
 // Entry Point
 window.onload = () => {
@@ -52,8 +51,7 @@ window.onload = () => {
 // Resize canvas
 window.onresize = () => {
 	engine.resize();
-};
-`}
+}`}
 					</code>
 				</pre>
 				<div className="posts-list">
