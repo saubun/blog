@@ -1,0 +1,11 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "A personal blog",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "serve public"
+  },
+  "author": "Saubuny",
+  "license": "ISC"
+}
