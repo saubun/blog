@@ -1,3 +1,3 @@
-# My personal blog
+# Template for typecript with Next.js
 
-This is a repository containing the source code for my personal blog! :)
+Make sure to run `npm i` or `yarn` after cloning <3
